@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "brew-blood-and-blade:item/dev_tool"
+  }
+}
