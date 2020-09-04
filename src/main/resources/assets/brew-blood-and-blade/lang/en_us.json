@@ -1,5 +1,6 @@
 {
   "item.brew-blood-and-blade.dev_tool": "Dev Tool",
   "itemGroup.brew-blood-and-blade": "Brew Blood and Blade",
-  "block.brew-blood-and-blade.mithril_ore": "Mithril Ore"
+  "block.brew-blood-and-blade.mithril_ore": "Mithril Ore",
+  "item.brew-blood-and-blade.mithril_ingot": "Mithril Ingot"
 }

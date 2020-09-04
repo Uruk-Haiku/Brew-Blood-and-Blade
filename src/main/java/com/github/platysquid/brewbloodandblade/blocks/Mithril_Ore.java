@@ -10,7 +10,7 @@ public class Mithril_Ore extends Block
     public Mithril_Ore()
     {
         super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(3.0F, 3.0F)
+                .hardnessAndResistance(25.0F, 25.0F)
         );
         setRegistryName("mithril_ore");
     }
