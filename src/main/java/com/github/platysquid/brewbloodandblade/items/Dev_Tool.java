@@ -9,7 +9,7 @@ public class Dev_Tool extends Item
     {
         super(new Properties()
                 .group(ModItemGroups.MOD_ITEM_GROUP)
-                .maxDamage(32767)//We're here on the oldest anarchy server in minecraft...
+                .maxDamage(10)//We're here on the oldest anarchy server in minecraft...
                 .addToolType(ToolType.PICKAXE, 2)
         );
         setRegistryName("dev_tool");
