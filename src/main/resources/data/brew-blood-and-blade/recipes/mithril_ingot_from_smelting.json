@@ -1,0 +1,7 @@
+{
+  "type": "smelting",
+  "ingredient": { "item": "brew-blood-and-blade:mithril_ore"},
+  "result": "brew-blood-and-blade:mithril_ingot",
+  "experience": 2.0,
+  "cookingtime": 400
+}
