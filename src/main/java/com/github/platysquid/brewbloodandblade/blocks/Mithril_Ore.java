@@ -11,7 +11,7 @@ public class Mithril_Ore extends Block
     public Mithril_Ore()
     {
         super(Properties.create(Material.ROCK)
-                .hardnessAndResistance(25.0F, 25.0F)
+                .hardnessAndResistance(15.0F, 15.0F)
                 .harvestLevel(3)
                 .harvestTool(ToolType.PICKAXE)
 
