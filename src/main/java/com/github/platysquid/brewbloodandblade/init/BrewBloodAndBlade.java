@@ -4,7 +4,7 @@ import com.github.platysquid.brewbloodandblade.blocks.Mithril_Ore;
 import com.github.platysquid.brewbloodandblade.blocks.ModBlocks;
 import com.github.platysquid.brewbloodandblade.items.Dev_Tool;
 import com.github.platysquid.brewbloodandblade.items.Mithril_Ingot;
-import com.github.platysquid.brewbloodandblade.items.ModItemGroups;
+import com.github.platysquid.brewbloodandblade.items.register.ModItemGroups;
 import com.github.platysquid.brewbloodandblade.setup.ClientProxy;
 import com.github.platysquid.brewbloodandblade.setup.IProxy;
 import com.github.platysquid.brewbloodandblade.setup.ServerProxy;

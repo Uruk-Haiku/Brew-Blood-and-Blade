@@ -1,4 +1,4 @@
-package com.github.platysquid.brewbloodandblade.items;
+package com.github.platysquid.brewbloodandblade.items.register;
 
 import com.github.platysquid.brewbloodandblade.init.BrewBloodAndBlade;
 import net.minecraft.item.ItemGroup;

@@ -1,5 +1,6 @@
 package com.github.platysquid.brewbloodandblade.items;
 
+import com.github.platysquid.brewbloodandblade.items.register.ModItemGroups;
 import net.minecraft.item.Item;
 
 public class Mithril_Ingot extends Item
