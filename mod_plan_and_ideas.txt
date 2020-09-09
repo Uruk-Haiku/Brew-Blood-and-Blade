@@ -1,0 +1,102 @@
+This file comes in no particular order, and I am just using it to game out ideas and systems.
+This file will not likely be formatted, edited, or easily readable by anyone who is not me.
+
+____________________________________________________PLAN OF FEATURES____________________________________________________
+
+-----Metals and Tools-----
+New Metals:
+- Copper/Tin
+- Bronze
+- Steel (and potential derivatives, Damascus, folded, etc.)
+- Mithril
+
+Tiers of tools with new metals (worst to best (A rough approximation based on rarity, efficiency, and harvest level):
+- Wood
+- Stone
+- Copper/Tin (same tier)
+- Gold
+- Bronze
+- Iron
+- Steel
+- Mithril
+
+Tool Harvest Levels (In one tier, the leftmost is the least efficient, and the rightmost is the most efficient)
+
+0: Wood, Gold
+1: Stone, Copper/Tin
+2: Bronze, Iron
+3: Steel, Mithril
+
+How to get each new material:
+Copper and Tin can be (somewhat) commonly found underground and easily smelted in a common furnace.
+Bronze is made by alloying copper and tin. This requires a smelter, a new block, and a multiblock setup (the large
+furnace) to be done with any kind of efficiency.
+Steel is made by alloying iron and coal/charcoal in certain amounts, using the smelter, and the large furnace to
+be done with any kind of efficiency.
+Mithril is made by smelting rare mithril ore, again using the large furnace.
+
+Changes to existing materials:
+Gold and Iron now both require the smelter/large furnace to smelt.
+Diamond is removed entirely, no more armor, weapons, or tools. I have other plans for gemstones.
+Diamond ore will continue to generate normally.
+
+Reasons as to why I am doing this (A.K.A. my opinions about game and setting design,
+and my arcane protocols you must now follow):
+Minecraft has no reason for you to create big workshops with lots of crafting stations. Almost anything can be done
+on the go with the help of a furnace and crafting table which are very easy to acquire and transport. I think that
+giant workshops (and maybe mod theme-appropriate automation, but I am getting ahead of myself) and really cool and
+promote creative building and more linear progression, which is why I am making them essentially mandatory. This also
+makes the world more interesting, showing the necessity of civilization and the sacrifices on makes while travelling
+(Hello, Fellowship of the Ring). This also adds realism, and makes mining more effort than just bring a furnace and
+wood into a cave. You have to develop your own metallurgical prowess, and work your way up. Craft your tools somewhere,
+then ship them to where you want to go.
+
+New Workstations
+Smelter / Large Furnace:
+The smelter is the new central crafting station. It will have 5 in-slots, where ores (or ingots, which smelt faster)
+are inserted and smelted. You could use this to merely melt iron out of ore, or to alloy metals together, by placing
+them in different slots. There is one output slot, which will yield your result (which may end up being slag if you
+mix the wrong metals). There is also a fuel slot, with your choice of fuel altering the speed of smelting, with coal
+the fastest, charcoal the next best, and wood the slowest.
+
+Smelter UI Rough Sketch:
+
+                         [ ]
+              [ ]         |         [ ]
+                 \        |        /
+                  \       |       /
+                   \      |      /
+                    >    \|/    <
+        [ ] - - - > [O U T P U T] < - - - [ ]
+
+                          |
+                        ( { \
+                        ()\/||)  (Fire icon)
+                         (\|\
+
+                       [F U E L]
+
+The smelter can be upgraded to a multiblock called the large furnace. It will share the same UI, but may be require for
+some recipes and smelts faster. (Diagram is on test island).
+Block Required:
+Bricks (Any) (I will have to make a brick tag)
+Smelter
+Heat Proof Brick
+Chimney
+Bars (Any) (I will have to add other bar metals to make this) (I will have to add a bar tag)
+In the center of the smelter there will be 1 block which will slowly build up ash, like snow, which will need to be
+cleaned out.
+
+Recipes for new Blocks
+Legend:
+
+B = Brick (Any, Regular, Nether, or Heat-Proof)
+I = Any Ingot (Copper/Tin included)
+C = Clay
+
+Smelter:
+BIB
+C C
+BIB
+
+Chimney:

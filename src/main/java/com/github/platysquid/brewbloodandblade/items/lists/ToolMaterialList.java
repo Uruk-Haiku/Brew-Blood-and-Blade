@@ -6,7 +6,7 @@ import net.minecraft.item.crafting.Ingredient;
 
 public enum ToolMaterialList implements IItemTier
 {
-   // mithril();
+    //mithril();
 ;
     private float attackDamage, efficiency;
     private int durability, harvestLevel, enchantibility;
