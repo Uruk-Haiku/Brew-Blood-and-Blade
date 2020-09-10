@@ -90,13 +90,49 @@ cleaned out.
 Recipes for new Blocks
 Legend:
 
-B = Brick (Any, Regular, Nether, or Heat-Proof)
+b = Brick Item (Any, Regular, Nether, or Heat-Proof)
 I = Any Ingot (Copper/Tin included)
 C = Clay
+B = Brick Block (Any, Regular, Nether, or Heat-Proof)
+
 
 Smelter:
-BIB
+bIb
 C C
-BIB
+bIb
 
 Chimney:
+ C
+ B
+ C
+
+Now that you have your ingots, you can craft. This uses a new multiblock crafting station, called the forge.
+It consists of an anvil, next to the new forge station, next to a smithing table. The forge station functions similarly
+to the smelter in the sense that it can be used alone or as part of a multiblock, with the multiblock being more
+desirable. When multiblocked into the forge, the forge station gets a new slot in its GUI: the smithing tools spot.
+There are five kinds of smithing tools, each of which will produce a slightly different weapon with differing stats:
+- Elvish smithing tools, which make faster weapons, with their bows being better than other types. They cannot make
+warhammers.
+- Mannish smithing tools, which make slightly faster, slightly more damaging weapons, with their swords being better
+than other types. They cannot make axes.
+- Dwarven smithing tools, which make more damaging weapons, with their axes being better than other types. They cannot
+make swords.
+- Hobbitish smithing tools, which make more durable weapons, with their daggers being better than other types. They
+cannot make spears.
+- Orcish smithing tools, which make bleeding weapons (more on bleed soon), with their spears being better than other
+types. They cannot make daggers.
+
+New kinds of weapons:
+- Daggers, which are much faster and lower-damage than swords, but have less range
+- Spears, which have much more range than swords, but are really slow and don't deal all that much damage (to prevent
+spears from being overpowered zone-out tools, which they too often become)
+- Warhammers, which are slower than swords but deal way more knockback.
+
+New status effects:
+- Bleed, like a short-term poison.
+
+Armour
+Now, you must protect yourself with new kinds of armour. All new metals have craftable armour, along with chainmail
+being craftable in all metal variants. Wearing heavier armour slows you down, inflicting a permanent mild slowness
+depending on how much armor you are wearing. However, each piece of mithril armor gives you speed, which can offset
+the slowness. Smithing tools do not make different kinds of armour.
