@@ -37,7 +37,7 @@ Mithril is made by smelting rare mithril ore, again using the large furnace.
 
 Changes to existing materials:
 Gold and Iron now both require the smelter/large furnace to smelt.
-Diamond is removed entirely, no more armor, weapons, or tools. I have other plans for gemstones.
+Diamond is removed entirely, no more (craftable) armor, weapons, or tools. I have other plans for gemstones.
 Diamond ore will continue to generate normally.
 
 Reasons as to why I am doing this (A.K.A. my opinions about game and setting design,

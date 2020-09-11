@@ -2,6 +2,7 @@ package com.github.platysquid.brewbloodandblade.init;
 
 import com.github.platysquid.brewbloodandblade.blocks.Mithril_Ore;
 import com.github.platysquid.brewbloodandblade.blocks.ModBlocks;
+import com.github.platysquid.brewbloodandblade.items.Copper_Ingot;
 import com.github.platysquid.brewbloodandblade.items.Dev_Tool;
 import com.github.platysquid.brewbloodandblade.items.Mithril_Ingot;
 import com.github.platysquid.brewbloodandblade.items.register.ModItemGroups;
@@ -65,7 +66,8 @@ public class BrewBloodAndBlade
             event.getRegistry().registerAll(
                     new Dev_Tool(),
                     new BlockItem(ModBlocks.MITHRIL_ORE, new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).maxStackSize(64)).setRegistryName(ModBlocks.MITHRIL_ORE.getRegistryName()),
-                    new Mithril_Ingot()
+                    new Mithril_Ingot(),
+                    new Copper_Ingot()
             );
         }
 
