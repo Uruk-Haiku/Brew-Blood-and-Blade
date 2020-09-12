@@ -5,6 +5,7 @@ import com.github.platysquid.brewbloodandblade.blocks.ModBlocks;
 import com.github.platysquid.brewbloodandblade.items.Copper_Ingot;
 import com.github.platysquid.brewbloodandblade.items.Dev_Tool;
 import com.github.platysquid.brewbloodandblade.items.Mithril_Ingot;
+import com.github.platysquid.brewbloodandblade.items.Tin_Ingot;
 import com.github.platysquid.brewbloodandblade.items.register.ModItemGroups;
 import com.github.platysquid.brewbloodandblade.setup.ClientProxy;
 import com.github.platysquid.brewbloodandblade.setup.IProxy;
@@ -67,7 +68,8 @@ public class BrewBloodAndBlade
                     new Dev_Tool(),
                     new BlockItem(ModBlocks.MITHRIL_ORE, new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP).maxStackSize(64)).setRegistryName(ModBlocks.MITHRIL_ORE.getRegistryName()),
                     new Mithril_Ingot(),
-                    new Copper_Ingot()
+                    new Copper_Ingot(),
+                    new Tin_Ingot()
             );
         }
 

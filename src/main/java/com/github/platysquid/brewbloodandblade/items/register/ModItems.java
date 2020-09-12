@@ -11,4 +11,6 @@ public class ModItems
     public static final Item DEV_TOOL = null;
     public static final BlockItem MITHRIL_ORE = null;
     public static final Item MITHRIL_INGOT = null;
+    public static final Item COPPER_INGOT = null;
+    public static final Item TIN_INGOT = null;
 }
