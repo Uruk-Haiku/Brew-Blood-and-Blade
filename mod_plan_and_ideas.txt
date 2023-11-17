@@ -112,9 +112,9 @@ to the smelter in the sense that it can be used alone or as part of a multiblock
 desirable. When multiblocked into the forge, the forge station gets a new slot in its GUI: the smithing tools spot.
 There are five kinds of smithing tools, each of which will produce a slightly different weapon with differing stats:
 - Elvish smithing tools, which make faster weapons, with their bows being better than other types. They cannot make
-warhammers.
+axes.
 - Mannish smithing tools, which make slightly faster, slightly more damaging weapons, with their swords being better
-than other types. They cannot make axes.
+than other types. They cannot make warhammers.
 - Dwarven smithing tools, which make more damaging weapons, with their axes being better than other types. They cannot
 make swords.
 - Hobbitish smithing tools, which make more durable weapons, with their daggers being better than other types. They
